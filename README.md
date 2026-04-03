@@ -8,3 +8,17 @@ GNSS Data Repository
 Use this link to download rinex files for processing M3E RTK jobs 
 
 [data.gnss.ga.gov.au](https://data.gnss.ga.gov.au)
+
+1. Download RINEX file https://data.gnss.ga.gov.au/
+
+--Unzip with 7ZIP (cmd doesnt work)
+
+--gzip -d E:\map_data\PPK_Project\download\BINN00AUS_R_20260910000_01D_30S_MO.crx.gz
+
+--Unzip with RNXCMP_4.2.0_Windows_mingw_64bit
+
+crx2rnx e:\map_data\PPK_Project\download\BINN00AUS_R_20260910000_01D_30S_MO\BINN00AUS_R_20260910000_01D_30S_MO.crx
+
+crx2rnx e:\map_data\PPK_Project\download\BUSS00AUS_R_20260910000_01D_30S_MO\BUSS00AUS_R_20260910000_01D_30S_MO.crx
+
+crx2rnx e:\map_data\PPK_Project\download\BALI00AUS_R_20260910800_01D_30S_MO\BALI00AUS_R_20260910800_01D_30S_MO.crx
