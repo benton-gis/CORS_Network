@@ -8,7 +8,8 @@ Run the following in CloudCompare CLI (actually just CMD in windows)
 
 CloudCompare CLI cannot detect wildcards to batch file below has to be used to merge las files
 
-<pre>@echo off
+<pre>
+@echo off
 setlocal enabledelayedexpansion
 
 REM --- Set CloudCompare path ---
@@ -25,8 +26,9 @@ echo %FILES%
 echo.
 
 REM --- Run CloudCompare merge ---
-%CC% -SILENT -AUTO_SAVE OFF %FILES% -MERGE_CLOUDS -SAVE_CLOUDS FILE "merged.las"
+%CC% -SILENT -AUTO_SAVE OFF -C_EXPORT_FMT LAS %FILES% -MERGE_CLOUDS -SAVE_CLOUDS FILE "merged.las"
 
 echo.
 echo Merge complete.
-pause</pre>
+pause
+</pre>
