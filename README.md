@@ -1,7 +1,7 @@
 # CORS_Network
 Links
 
-[Annonymous Access Instructions](https://data.gnss.ga.gov.au/docs/sftp/v1.0/sftp-access-combined.html#anonymous-access)
+[Anonymous Access Instructions](https://data.gnss.ga.gov.au/docs/sftp/v1.0/sftp-access-combined.html#anonymous-access)
 
 GNSS Data Repository
 
