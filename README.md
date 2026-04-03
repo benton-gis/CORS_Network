@@ -4,6 +4,7 @@ Prerequisite
 
 1. [crx2rnx](https://terras.gsi.go.jp/ja/crx2rnx.html)
 2. Rinex file
+3. 7ZIP
 
 [Anonymous Access Instructions](https://data.gnss.ga.gov.au/docs/sftp/v1.0/sftp-access-combined.html#anonymous-access)
 
