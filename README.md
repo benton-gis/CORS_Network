@@ -1,6 +1,6 @@
 # CORS_Network
-##Links
+Links
 [Annonymous Access Instructions](https://data.gnss.ga.gov.au/docs/sftp/v1.0/sftp-access-combined.html#anonymous-access)
-##GNSS Data Repository
+GNSS Data Repository
 Use this link to download rinex files for processing M3E RTK jobs 
 [data.gnss.ga.gov.au](https://data.gnss.ga.gov.au)
